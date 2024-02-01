@@ -1,0 +1,15 @@
+.story {
+background-color: black;
+}
+
+.story__text {
+
+}
+
+.story__button {
+background-color: white;
+}
+
+.story__button:hover {
+    background-color: transparent;
+}

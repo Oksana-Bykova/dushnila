@@ -1,0 +1,17 @@
+.header {
+  width: 100%;
+}
+
+.header__title {
+  color: #000;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 37px */
+  letter-spacing: 46.99px;
+  text-transform: uppercase;
+  text-align: center;
+}
