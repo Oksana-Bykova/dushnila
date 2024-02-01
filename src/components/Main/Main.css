@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+}
+
+@media screen and (max-width: 560px) {
+  .main {
+    flex-direction: column;
+  }
+}
+
+.main__container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 39%;
+  margin-right: 2%;
+  justify-content: space-between;
+  row-gap: 43px;
+}
+
+@media screen and (max-width: 560px) {
+  .main__container {
+    width: 100%;
+    row-gap: 10px;
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,58 @@
+.story {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background: rgb(0, 0, 0);
+  width: 43.5%;
+  padding-left: 2%;
+  padding-top: 7%;
+}
+
+@media screen and (max-width: 1200px) {
+  .story {
+    width: 100%;
+  }
+}
+
+.story__text {
+  color: rgb(255, 255, 255);
+  font-size: 2.7vw;
+  font-weight: 500;
+  line-height: 106%;
+  letter-spacing: -6%;
+  text-align: left;
+  margin: 0;
+}
+
+.story__button {
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 100px;
+  background: rgb(255, 255, 255);
+  margin-top: 40%;
+  margin-bottom: 12%;
+  width: 95%;
+  height: 63px;
+  text-align: start;
+  padding-left: 10%;
+  background-image: url("../../../images/Vector.svg");
+  background-repeat: no-repeat;
+  background-position: right 10% bottom 49%;
+  font-size: 1.3vw;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 560px) {
+  .story__button {
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 20%;
+    background-size: 5%;
+  }
+}
+
+.story__button:hover {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  background-image: url("../../../images/Vectorwhite.svg");
+}

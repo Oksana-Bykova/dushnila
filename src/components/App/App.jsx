@@ -1,11 +1,9 @@
-
-import './App.css';
 import { Provider } from "react-redux";
 import { store } from "../../redux";
 
+import './App.css';
 import Header from '../Header/Header';
-import Indicators from '../Indicators/Indicators';
-import Status from '../Status/Status';
+import Main from '../Main/Main';
 
 
 function App() {
@@ -14,9 +12,10 @@ function App() {
     <div className='page'>
       <header>
         <Header></Header>
-        <Indicators></Indicators>
-        <Status></Status>
       </header>
+      <main>
+        <Main></Main>
+      </main>
     </div>
     </Provider>
   );

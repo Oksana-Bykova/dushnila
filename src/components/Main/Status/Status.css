@@ -1,0 +1,35 @@
+.status {
+  border-radius: 20px;
+  background: rgb(122, 255, 167);
+  padding-top: 7%;
+  padding-left: 9%;
+}
+
+@media screen and (max-width: 560px) {
+  .status {
+    width: 100%;
+  }
+}
+
+.status_red {
+  background: rgb(255, 138, 122);
+}
+
+.status__text {
+  font-size: 4.2vw;
+  font-weight: 500;
+  line-height: 108%;
+  letter-spacing: -6%;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 26%;
+}
+
+.status__clue {
+  font-size: 1.8vw;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 9%;
+}

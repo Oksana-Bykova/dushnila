@@ -3,15 +3,13 @@
 }
 
 .header__title {
-  color: #000;
-  leading-trim: both;
-  text-edge: cap;
-  font-family: Inter;
-  font-size: 37px;
+  font-size: 2vw;
   font-style: normal;
   font-weight: 700;
   line-height: 100%; /* 37px */
-  letter-spacing: 46.99px;
+  letter-spacing: 2vw;
   text-transform: uppercase;
   text-align: center;
+  margin: 0;
+  margin-bottom: 30px;
 }

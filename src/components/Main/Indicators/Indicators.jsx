@@ -3,15 +3,14 @@ import "./Indicators.css";
 
 import { useDispatch } from "react-redux";
 
-import { gooddeloApi } from "../../utils/GooddeloApi";
-import { setStatus, setStatusCO2, setStatusTemp } from "../../redux/status/reducer";
+import { gooddeloApi } from "../../../utils/GooddeloApi";
+import { setStatus, setStatusCO2, setStatusTemp } from "../../../redux/status/reducer";
 import { useSelector } from "react-redux";
 
 function Indicators() {
   const dispatch = useDispatch();
 
   const status = useSelector((state) => state.status.meaning);
-  console.log(status);
   const [query, setQuery] = React.useState([]);
 
   function getIndicators() {
@@ -53,7 +52,7 @@ function Indicators() {
       <span className="indicators__meaning">{query.temp} ℃</span>
       <p className="indicators__text">Температура</p>
 
-      <span className="indicators__meaning">{query.co2} ppm</span>
+      <span className="indicators__meaning">{Math.round(query.co2)} ppm</span>
       <p className="indicators__text">CO2</p>
     </section>
   );

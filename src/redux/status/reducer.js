@@ -19,7 +19,6 @@ const statusSlice = createSlice({
     setStatusTemp: (state, action) => {
       state.temp = action.payload;
     },
-
   },
 });
 

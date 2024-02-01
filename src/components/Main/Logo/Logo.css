@@ -1,0 +1,24 @@
+.logo {
+  width: 47%;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+  .logo {
+    width: 100%;
+    min-height: 250px;
+  }
+}
+
+.logo__img {
+  display: flex;
+  width: 98%;
+  height: 339px;
+  position: absolute;
+  top: 27%;
+  left: 19%;
+}
